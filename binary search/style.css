@@ -1,0 +1,95 @@
+html,body{
+    margin: 0;
+    padding:0;
+    height: 100%;
+    background-color: darkslategray;
+    color: floralwhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid{
+    
+    display: grid;
+    padding: 8rem;
+
+}
+.shadow{
+ -webkit-box-shadow: 10px 10px 5px 0px rgba(255,255,255,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 5px 0px rgba(255,255,255,.75);
+    transition: all 500ms;
+}
+.shadow:hover{
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(255,255,255,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 10px 0px rgba(255,255,255,.75);
+    transition: all 500ms;
+}
+
+
+.search{
+    justify-self: center;
+}
+
+.search div {
+    text-align: center;
+}
+div {
+    margin-top: 0.50rem;
+    margin-bottom: 0.50rem;
+    font-size: large;
+    text-align: center;
+}
+
+div textarea{
+    padding: 0 10%;
+ 
+    font-size: large;
+    text-align: center;
+}
+.btn-min button{
+    background: deepskyblue ;
+    border: 2px deepskyblue solid ;
+    color: ghostwhite;
+    border-radius: 1rem;
+    padding: 0.50rem 2rem;
+    transition: all 500ms;
+}
+
+
+.btn-min button:hover{
+    background: none ;
+    font-size: large;
+    color: ghostwhite;
+    border: 2px deepskyblue solid ;
+    border-radius: 1rem;
+    padding: 0.50rem 2rem 
+
+}
+
+
+input {
+    background: none;
+    border: 1px deepskyblue solid ;
+    transition: all 500ms;
+    color: whitesmoke;
+}
+
+input:focus{
+    color: black;
+    background: white;
+    border: 1px none solid ;
+}
+
+textarea {
+    background: none;
+    border: 1px deepskyblue solid ;
+    transition: all 500ms;
+    color: whitesmoke;
+}
+
+textarea:focus{
+    color: black;
+    background: white;
+    border: 1px none solid ;
+}
